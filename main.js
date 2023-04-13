@@ -102,8 +102,8 @@ class Player {
   constructor (x, y, size) {
     this.x = x
     this.y = y
-    this.p_width = 18 
-    this.p_height = 24
+    this.p_width = 14
+    this.p_height = 15
     this.z_width = 16
     this.z_height = 25
     this.gravity = 0
@@ -126,7 +126,7 @@ class Player {
     this.zombieWidth = 292
     this.zombieHeight = 410
     this.zombieSize = 50
-    this.px = 25.5
+    this.px = 27
     this.py = 25
     this.zx = 25 
     this.zy = 15
