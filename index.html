@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+
+  
+  <title>The boy and Zombies</title>
+  <style>
+  canvas {
+    position: absolute;
+  }
+    button {
+      position: absolute;
+      display: flex;
+      left: 40%;
+      margin-top: 75vh;
+      border: 2px solid black;
+      background-color: lightgreen;
+      width: 8vh;
+      height: 4vh;
+      font-size: 2.6vh;
+      padding-left: 8px;
+      
+      border-radius: 100px 100px 100px 100px;
+      
+      
+    }
+  </style>
+  <p style="position:fixed;z-index:10;color:yellow;left:10px;top:280px;margin:0;font-family:Bangers;font-size:15px">
+  <span>SCORE :</span>
+  <span id="score">0</span>
+</p>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+   <button onclick="changeControl()">Done</button>
+ <script src="main.js"></script> 
+</body>
+
+</html>
